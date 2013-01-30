@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Num:</b>
+  <%= @prime.num %>
+</p>
+
+<p>
+  <b>Is prime:</b>
+  <%= @prime.is_prime %>
+</p>
+
+
+<%= link_to 'Edit', edit_prime_path(@prime) %> |
+<%= link_to 'Back', primes_path %>
